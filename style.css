@@ -1,0 +1,129 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+.bg-white {
+  background-color: white;
+}
+
+.backround {
+  background: url(https://www.publicdomainpictures.net/pictures/250000/nahled/abstract-background-colors.jpg);
+  background-size: cover;
+}
+
+.dark-blue {
+  color: hsl(246, 25%, 77%);
+}
+
+.font-weight {
+  font-weight: 600;
+}
+
+.curser-pointer {
+  cursor: pointer;
+}
+
+.title {
+  width: 65%;
+  color: white;
+  margin-right: 50px;
+  
+}
+
+.title h2 {
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.form-info {
+  background-color: hsl(248, 32%, 49%);
+  margin-bottom: 40px !important;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  width: 70%;
+}
+
+.form-page{
+  width: 100%;
+}
+
+.form {
+  flex-direction: column;
+  margin-top: 20px !important;
+  width: 70%;
+  border-radius: 10px;
+  background-color: aquamarine !important;
+}
+
+.form-block {
+  width: 90%;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid hsl(246, 25%, 77%);
+  font-weight: 600;
+}
+
+.form-style {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
+
+.error-block {
+  display:flex;
+  flex-direction: column;
+
+}
+
+.errorMessage {
+  padding: 0;
+  position: absolute !important;
+  right: 35px !important;
+  bottom:0;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.error{
+  position: absolute;
+  right: 30px;
+  bottom:30px;
+  
+}
+
+.button {
+  background-color: hsl(154, 59%, 51%);
+  width: 90%;
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  margin-top: 15px;
+}
+
+.button-info {
+  width: 90%;
+  font-size: 10px;
+  text-align: center;
+  margin: 15px 0;
+}
+
+.display-none{
+  display: none;
+}
+
+@media screen and (max-width:820px){
+   .form-info, form{
+    margin: 0 auto;
+   }
+
+  }
